@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Practice</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="vocabulary.html">Vocabulary</a></li>
+                <li><a href="practice.html">Practice</a></li>
+                <li><a href="culture.html">Culture</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Fill-in-the-Blank Sentences with Options</h2>
+            <p>Choose the correct word to complete each sentence:</p>
+            <form id="quizForm">
+                <ol>
+                    <li>In Japan, it is a common __________ to take off your shoes before entering a house.
+                        <ul>
+                            <li><input type="radio" name="q1" value="tradition"> a) tradition (伝統)</li>
+                            <li><input type="radio" name="q1" value="innovation"> b) innovation (革新)</li>
+                            <li><input type="radio" name="q1" value="ceremony"> c) ceremony (儀式)</li>
+                        </ul>
+                    </li>
+                    <li>Sushi is a famous __________ from Japan.
+                        <ul>
+                            <li><input type="radio" name="q2" value="festival"> a) festival (祭り)</li>
+                            <li><input type="radio" name="q2" value="cuisine"> b) cuisine (料理)</li>
+                            <li><input type="radio" name="q2" value="symbol"> c) symbol (象徴)</li>
+                        </ul>
+                    </li>
+                    <!-- Add the rest of the sentences similarly -->
+                </ol>
+                <button type="button" onclick="checkAnswers()">Check Answers</button>
+            </form>
+            <div id="result"></div>
+        </section>
+    </main>
+    <footer>
+        <p>Contact us: info@culturelesson.com | Follow us on social media!</p>
+    </footer>
+</body>
+</html>
